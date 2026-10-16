@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Idle Tycoon — kurgusal seçim kampanyası</title>
+  <meta name="description" content="Idle Tycoon, sokağından başlayan kurgusal bir seçim kampanyası oyunudur. Gerçek kişi ve partilerle ilgisi yoktur.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,640&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sheet">
+    <header class="top">
+      <a class="brand" href="index.html">
+        <i class="mark" aria-hidden="true"></i>
+        <span>
+          <b>Idle Tycoon</b>
+          <span>Ilyas Bora Altun</span>
+        </span>
+      </a>
+      <nav class="nav">
+        <a href="#rota">Kampanya</a>
+        <a href="#oyna">İndir</a>
+        <a href="gizlilik.html">Gizlilik</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <p class="kicker">Mahalleden seçime</p>
+        <h1>Sokağın<br>sandığa gider.</h1>
+        <p class="lead">Teşkilat kur, Kampanya Gücü’nü topla, danışmanı göreve çağır. Mahalle mitinginden ilçe seçimine, oradan büyükşehre çık.</p>
+        <p class="disclaimer">Bu oyun kurgudur; gerçek kişi ve partilerle ilgisi yoktur.</p>
+        <div class="actions">
+          <a class="btn" href="#oyna">Google Play’de yakında</a>
+          <a class="btn ghost" href="gizlilik.html">Gizlilik politikası</a>
+        </div>
+      </div>
+      <figure class="poster">
+        <svg viewBox="0 0 520 420" role="img" aria-label="Gece sokağında kampanya binaları ve bir destek balonu">
+          <rect width="520" height="420" fill="#1a0c22"/>
+          <circle cx="420" cy="78" r="46" fill="#e4b15a" opacity="0.9"/>
+          <circle cx="390" cy="70" r="28" fill="#fff6e8" opacity="0.18"/>
+          <g fill="#f2d7a2">
+            <rect x="46" y="214" width="78" height="150" rx="4"/>
+            <rect x="138" y="176" width="96" height="188" rx="4"/>
+            <rect x="248" y="198" width="84" height="166" rx="4"/>
+            <rect x="346" y="150" width="118" height="214" rx="4"/>
+          </g>
+          <g fill="#2a1238">
+            <rect x="62" y="232" width="16" height="22"/>
+            <rect x="86" y="232" width="16" height="22"/>
+            <rect x="62" y="266" width="16" height="22"/>
+            <rect x="86" y="266" width="16" height="22"/>
+            <rect x="156" y="196" width="18" height="24"/>
+            <rect x="184" y="196" width="18" height="24"/>
+            <rect x="156" y="232" width="18" height="24"/>
+            <rect x="184" y="232" width="18" height="24"/>
+            <rect x="156" y="268" width="18" height="24"/>
+            <rect x="184" y="268" width="18" height="24"/>
+            <rect x="266" y="218" width="16" height="22"/>
+            <rect x="292" y="218" width="16" height="22"/>
+            <rect x="266" y="252" width="16" height="22"/>
+            <rect x="292" y="252" width="16" height="22"/>
+            <rect x="368" y="172" width="20" height="26"/>
+            <rect x="398" y="172" width="20" height="26"/>
+            <rect x="428" y="172" width="20" height="26"/>
+            <rect x="368" y="210" width="20" height="26"/>
+            <rect x="398" y="210" width="20" height="26"/>
+            <rect x="428" y="210" width="20" height="26"/>
+            <rect x="368" y="248" width="20" height="26"/>
+            <rect x="398" y="248" width="20" height="26"/>
+            <rect x="428" y="248" width="20" height="26"/>
+          </g>
+          <rect x="0" y="360" width="520" height="60" fill="#0d0712"/>
+          <circle cx="118" cy="148" r="22" fill="#1f8f45"/>
+          <path d="M118 170 v28" stroke="#e4b15a" stroke-width="2"/>
+          <text x="108" y="154" fill="#fff6e8" font-family="Georgia, serif" font-size="16">+</text>
+        </svg>
+        <figcaption class="caption">Burası senin sokağın.</figcaption>
+      </figure>
+    </section>
+
+    <section class="route" id="rota">
+      <h2>Kampanya dört adımda büyür.</h2>
+      <p class="deck">Para yerine destek birikir. Her bina bir teşkilattır. Seçim, sokağın dışına taşınca başlar.</p>
+      <ol class="steps">
+        <li>
+          <em>01</em>
+          <strong>Sokak</strong>
+          <p>İlk teşkilatı kur. Çember dolunca Kampanya Gücü balonunu kasana ekle.</p>
+        </li>
+        <li>
+          <em>02</em>
+          <strong>Danışman</strong>
+          <p>Danışman binaları senin yerine çalıştırır. Destek, sen bakmazken de akar.</p>
+        </li>
+        <li>
+          <em>03</em>
+          <strong>Miting</strong>
+          <p>Haritayı aç, mahalleye in. Siyasi gücün yetmezse teşkilatı büyütüp yeniden dene.</p>
+        </li>
+        <li>
+          <em>04</em>
+          <strong>Seçim</strong>
+          <p>İlçe seçimini kazan, sonraki harita açılsın. Büyükşehir daha ileride bekler.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section class="play" id="oyna">
+      <div class="play-row">
+        <div>
+          <h2>Google Play’de yakında.</h2>
+          <p>Hesap açılmaz. İlerleme telefonda kalır. Reklamlar Google Mobile Ads ile gösterilir. Altın ve reklam kaldırma, yayınlandığında Google Play ödeme ekranından alınır.</p>
+        </div>
+        <div class="soon">Sürüm 0.1.0</div>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <span>Ilyas Bora Altun · Idle Tycoon</span>
+      <a href="gizlilik.html">Gizlilik politikası</a>
+    </footer>
+  </div>
+</body>
+</html>
